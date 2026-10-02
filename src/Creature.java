@@ -63,7 +63,7 @@ public class Creature {
         return isDead;
     }
 
-    //check if player is already dead
+    //check if player is already dead oh wowowowow
     public void takeDamage(int damage) {
         health -= damage;
         if (health <= 0){
