@@ -62,8 +62,8 @@ public class Creature {
     public boolean isDead(){
         return isDead;
     }
-
-    //check if player is already dead oh wowowowow
+// okokokok
+    //check if player is already dead
     public void takeDamage(int damage) {
         health -= damage;
         if (health <= 0){
@@ -79,6 +79,6 @@ public class Creature {
         return "Creature [Name=" +name+ ", Power= "+ power + ", Colour= "+ colour+", Level= "+ level+ ", Health= "+ health+ ", Attack Power= "+ attackPower + "]";
     }
 
-
+//wowowowowowowowowowowowowow
 
 }
